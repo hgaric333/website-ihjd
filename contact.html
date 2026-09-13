@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Narratives In Between</title>
+<meta name="description" content="Get in touch with Narratives In Between about our research and publications.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-base="">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="wordmark" href="index.html">Narratives In Between<span>Policy Research</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu">
+      <svg width="20" height="14" viewBox="0 0 20 14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M0 1h20M0 7h20M0 13h20"/></svg>
+    </button>
+    <nav class="nav" id="primary-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="index.html#podcast">Podcast</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Correspondence</p>
+          <h2>Contact us</h2>
+          <p>Thank you for your interest in our research. Get in touch with any questions or comments about our work and publications.</p>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- ===================================================================
+             TO MAKE THIS FORM DELIVER EMAIL:
+             1. Go to formspree.io, create a free account and a new form.
+             2. It gives you an address like  https://formspree.io/f/abcdwxyz
+             3. Paste it into action="..." below, replacing the whole URL.
+             Until then the form opens the visitor's own email app instead.
+             =================================================================== -->
+        <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-fallback-email="hgaric13@gmail.com" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <span class="error">Please tell us your name.</span>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <span class="error">Please enter a valid email address.</span>
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text">
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <span class="error">Please write a short message.</span>
+          </div>
+          <div class="hp" aria-hidden="true"><label>Leave this empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn btn-ink" type="submit">Send message <span class="arrow" aria-hidden="true">&rarr;</span></button>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+          <p class="form-note">We read everything and reply to most messages within a week.</p>
+        </form>
+
+        <aside class="contact-aside">
+          <dl>
+            <dt>Email</dt>
+            <dd><a href="mailto:hgaric13@gmail.com">hgaric13@gmail.com</a></dd>
+            <dt>Research enquiries</dt>
+            <dd>Questions about sources, citations or republishing an article are welcome — please include the title of the piece.</dd>
+            <dt>Podcast</dt>
+            <dd>Guest suggestions and interview requests can go through this form. Tell us a little about the topic you have in mind.</dd>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__top">
+      <div>
+        <a class="wordmark" href="index.html">Narratives In Between<span>Policy Research</span></a>
+        <p>Independent research on colonialism, imperialism and the international political economy.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="research.html">Research</a>
+        <a href="index.html#podcast">Podcast</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="site-footer__bottom">
+      <span>&copy; <span id="year">2020</span> Narratives In Between. All rights reserved.</span>
+      <a href="mailto:hgaric13@gmail.com" style="color:inherit;">hgaric13@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
